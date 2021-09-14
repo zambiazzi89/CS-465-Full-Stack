@@ -1,6 +1,6 @@
 var express = require('express')
 var router = express.Router()
-const controller = require('../controller/meals')
+const controller = require('../controllers/meals')
 
 /* GET meals page. */
 router.get('/', controller.meals)
