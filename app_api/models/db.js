@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-const dbURI = 'mongodb://172.20.0.1/travlr'
+const dbURI = 'mongodb://172.31.112.1/travlr'
 
 mongoose.connect(dbURI)
 
